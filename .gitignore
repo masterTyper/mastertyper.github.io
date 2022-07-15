@@ -1,56 +1,97 @@
-*.gem
-*.rbc
-/.config
-/coverage/
-/InstalledFiles
-/pkg/
-/spec/reports/
-/spec/examples.txt
-/test/tmp/
-/test/version_tmp/
-/tmp/
+### Jekyll ###
+_site
+.jekyll-metadata
+*-cache/
 
-# Used by dotenv library to load environment variables.
-# .env
 
-# Ignore Byebug command history file.
-.byebug_history
+### NPM ###
+/node_modules/
 
-## Specific to RubyMotion:
-.dat*
-.repl_history
-build/
-*.bridgesupport
-build-iPhoneOS/
-build-iPhoneSimulator/
 
-## Specific to RubyMotion (use of CocoaPods):
-#
-# We recommend against adding the Pods directory to your .gitignore. However
-# you should judge for yourself, the pros and cons are mentioned at:
-# https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
-#
-# vendor/Pods/
+### Atom ###
+.ftpconfig
+.sftpconfig
 
-## Documentation cache and generated files:
-/.yardoc/
-/_yardoc/
-/doc/
-/rdoc/
 
-## Environment normalization:
-/.bundle/
-/vendor/bundle
-/lib/bundler/man/
+### WordPress ###
+wp-config.php
+wp-config-local.php
+wp-content/advanced-cache.php
+wp-content/backup-db/
+wp-content/backups/
+wp-content/blogs.dir/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/uploads/
+wp-content/wp-cache-config.php
+wp-content/plugins/hello.php
 
-# for a library or gem, you might want to ignore these files since the code is
-# intended to run in multiple environments; otherwise, check them in:
-# Gemfile.lock
-# .ruby-version
-# .ruby-gemset
 
-# unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
-.rvmrc
+### Apache ###
+.htaccess
 
-# Used by RuboCop. Remote config files pulled in from inherit_from directive.
-# .rubocop-https?--*
+
+### Compiled Source ##
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+
+### Compressed Packages ###
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+
+### Logs and Databases ###
+*.log
+*.sql
+*.sqlite
+
+
+### Linux ###
+*~
+.fuse_hidden*
+.Trash-*
+.nfs*
+
+
+### MacOS ###
+*.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+
+### Windows ###
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
